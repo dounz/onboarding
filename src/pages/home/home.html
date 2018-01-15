@@ -1,0 +1,33 @@
+<ion-content>
+  <ion-slides pager>
+    <ion-slide>
+      <div class="diag" style= " background: url( '../../assets/imgs/whitebg.svg' ) no-repeat">
+
+        <ion-icon ios="ios-analytics" md="md-analytics" color="primary"></ion-icon>
+      </div>
+      <div>
+        <h2>Ionic permet de vous trouver</h2>
+        <p>Meme si ce n'est pas une app developpée en natif...</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="diag" style="background: url('../../assets/imgs/whitebg.svg') no-repeat">
+        <ion-icon ios="ios-outlet" md="md-outlet" color="primary"></ion-icon>
+      </div>
+      <div>
+        <h2>Ionic</h2>
+        <p> à acces aux fonctions natives du téléphone</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="diag" style="background: url('../../assets/imgs/whitebg.svg') no-repeat">
+        <ion-icon ios="ios-locate" md="md-locate" color="primary"></ion-icon>
+      </div>
+      <div>
+        <h2>et ça marche plutot pas mal!</h2>
+        <p>Cliquez sur le bouton plus bas et vous serez localisé</p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+  <button (click)="skip()" id ="skip">{{ skipMsg }}</button>
+</ion-content>
